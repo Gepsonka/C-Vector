@@ -21,9 +21,9 @@ vector createVector(unsigned int elements,...);
 void freeVector(vector *vec);
 
 
-vector* push(vector* vec,int val);
-vector* insert(vector* vec,int val,unsigned int poz);
-vector* del(vector* vec,int val,unsigned int poz);
+vector* push(vector* vec, int val);
+vector* insert(vector* vec, int val, unsigned int poz);
+vector* del(vector* vec, unsigned int poz);
 
 
 #endif //C_VECTOR_VECTOR_C_H
